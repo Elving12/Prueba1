@@ -13,10 +13,9 @@
 	--fondo-footer: #fff;
 }
 body{
-	font-family: 'Segoe UI';
+	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	color: var(--color-general);
-	background-color: var(--fondo-gris);
 }
 h2,h3,h4,h5,h6{
 	color: var(--color-titulos);
@@ -72,20 +71,43 @@ h1{
 	background-color: rgba(25,64,170,0.71);
 }
 
+#btn3{
+	background-color: var(--color-naranja);
+}
+
 #CTA{
 	background-image: url("../img/hero-bg-2.jpg");
 }
 
 #features h4{
-	font-size: 20px;
+	font-size: 15px;
 }
 
+#column1{
+	padding-left: 25%;
+	
+}
 
+#features{
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
 
+.titulo{
+	text-align: center;
+}
 
+#white{
+	font-family: 'Comfortaa', sans-serif;
+	color: var(--fondo-gris);
+}
 
-
-
+#agency{
+	padding-left: 10%;
+	background-color: var(--fondo-gris);
+	padding-top: 12%;
+	padding-bottom: 12%;
+}
 
 
 
