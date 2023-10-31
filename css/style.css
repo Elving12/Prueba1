@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap');
+
+:root{
+	--color-general:#707070;
+	--color-primario: #00438b;
+	--color-titulos: #000;
+	--color-naranja: #ff7700;
+	--fondo-gris: #f5f5f5;
+	--fondo-morado: #efdff7;
+	--color-morado: #b17cc6;
+	--fondo-aqua: #c6e6fd;
+	--color-aqua: #63b0e3;
+	--fondo-footer: #fff;
+}
+body{
+	font-family: 'Segoe UI';
+	font-size: 14px;
+	color: var(--color-general);
+	background-color: var(--fondo-gris);
+}
+h2,h3,h4,h5,h6{
+	color: var(--color-titulos);
+	font-family: 'Comfortaa', sans-serif;
+}
+
+
+
+header{
+	background-color: var(--color-primario);
+	/*box-shadow: 0px 0px 5px 3px #eee;*/
+}
+
+footer{
+	background-color: var(--fondo-footer);
+	padding: 30px 0;
+	text-align: center;
+}
+
+h1{
+	font-family: 'Comfortaa', sans-serif;
+	color: var(--fondo-gris);
+}
+
+#hero{
+	background-image: url(../img/hero-bg-4.jpg);
+	background-size: cover;
+	color: var(--fondo-gris);
+}
+
+.overlay{
+	background-color: rgba(0,31,134,0.74);
+	width: 100%;
+	left: 0;
+	top:0;
+	padding-left: 10%;
+	padding-top: 5%;
+	padding-right: 10%;
+	background-size: cover;
+	padding-bottom: 5%;
+}
+ 
+.btn{
+	color: var(--fondo-gris);
+	border: none;
+}
+
+#btn1{
+	background-color: var(--color-naranja);
+}
+
+#btn2{
+	background-color: rgba(25,64,170,0.71);
+}
+
+#CTA{
+	background-image: url("../img/hero-bg-2.jpg");
+}
+
+#features h4{
+	font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
